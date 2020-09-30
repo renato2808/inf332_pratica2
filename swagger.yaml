@@ -449,11 +449,22 @@ definitions:
         type: "number"
         format: "float"
         example: 9999.
-      dimensoes:
-        type: array
-        xml:
-          name: dimensoes
-          wrapped: true
+      peso:
+        type: "number"
+        format: "float"
+        example: 9999.
+      altura:
+        type: "number"
+        format: "float"
+        example: 9999.  
+      largura:
+        type: "number"
+        format: "float"
+        example: 9999.
+      comprimento:
+        type: "number"
+        format: "float"
+        example: 9999.
       categorias:
         type: array
         xml:
