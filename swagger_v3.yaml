@@ -355,7 +355,7 @@ paths:
             - "write:produtos"
             - "read:produtos"
             
-  /categorias/produtos:
+  /categorias/{categoriaId}/produtos:
     get:
       tags:
         - categorias
